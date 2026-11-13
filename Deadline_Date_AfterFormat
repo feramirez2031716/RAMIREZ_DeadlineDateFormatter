@@ -1,0 +1,15 @@
+from datetime import datetime
+
+input_event = input("Enter event title: ")
+input_year = int(input("Enter year: "))
+input_month = int(input("Enter month: "))
+input_day = int(input("Enter day: "))
+
+date = datetime(input_year, input_month, input_day)  
+print("\nFormatted Output:")
+print("Event:", input_event.upper())
+print("Date:", datetime.strftime(date, "%B %d, %Y"))
+print("Year:", datetime.strftime(date, "%Y"))
+print("Month:", datetime.strftime(date, "%B"))
+print("Day:", datetime.strftime(date, "%d"))
+print("Weekday:", datetime.strftime(date, "%A"))
