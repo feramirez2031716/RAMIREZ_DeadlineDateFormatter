@@ -1,0 +1,6 @@
+from datetime import datetime
+
+input_event = input("Enter event title: ")
+input_year = input("Enter year: ")
+input_month = input("Enter month: ")
+input_day = input("Enter day: ")
